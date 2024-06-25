@@ -1,0 +1,494 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-weight: 700;
+    color: #66fcf1;
+}
+h3{
+    font-size: 1.4rem;
+}
+a{
+    color: #66fcf1;
+}
+a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+input{
+    background-color: #1f2833 !important;
+    color: #fff !important;
+}
+
+img.rounded-circle{
+    filter: none;
+    border: 2px solid #66fcf1;
+}
+.current{
+    color: #fff;
+}
+
+/*header*/
+.nav-info{
+    background-color: #0b0c10;
+    color: #c5c6c7;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #66fcf1;
+}
+.nav-info .top-nav a{
+    color: #fff;
+}
+.nav-info .top-nav a:hover{
+    color: #66fcf1;
+}
+
+.navbar{
+    background-color: #0b0c10;
+    color: #66fcf1 !important;
+}
+
+.navbar-brand, .footer-logo{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.btn-main{
+    background-color: #66fcf1;
+    color: #0b0c10 !important;
+}
+
+
+/*hero section*/
+.hero{
+    background-image: url(img/dev-asangbam-NVisipnbBeQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero-post{
+    position: relative;
+}
+.her img{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero-post-badges{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.hero-post-badges>a{
+    background-color: #0b0c10;
+    color: #66fcf1;
+    display: block;
+    font-size: 0.8rem;
+}
+
+.hero-post-content{
+    position: absolute;
+    bottom: 10px;
+    color: #66fcf1;
+}
+
+.hero-post-content img{
+    filter: grayscale(50%) brightness(0.8);
+}
+
+.hero-post-content img.rounded-circle{
+    filter: none;
+}
+
+/*Blog section*/
+.blog-posts{
+    background-color: #0b0c10;
+    color: #c5c6c7;
+}
+
+.blog-post{
+    background-color: #1f2833;
+}
+
+.blog-post h3{
+    font-size: 1.4rem;
+}
+
+.blog-post img{
+    width: 100%;
+    height: 100%;
+}
+
+.blog-post p{
+    font-size: .9rem;
+}
+
+.blog-post  .col-sm-8{
+    border-left: 3px solid #66fcf1;
+}
+
+.badge{
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.badge > a{
+    margin-left: .5rem;
+    padding: .5rem;
+    background-color: #66fcf1;
+    color: #0b0c10;
+}
+
+
+/*aside*/
+.social-links{
+    color: #0b0c10;
+    font-size: 1.5rem;
+}
+.social-links .col-sm-4{
+    border: 2px solid #66fcf1;
+}
+.social-links > a{
+    padding-top: 2rem;
+}
+
+.aside-heading{
+    border-left: 3px solid #66fcf1;
+}
+
+.author p{
+    font-size: 0.8rem;
+}
+
+.author-social-links a{
+    margin-right: 0.8rem;
+}
+
+.badges{
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.badges > a{
+    margin-left: .5rem;
+    display: inline-block;
+    margin: 0.2rem;
+    padding: .5rem;
+    background-color: #66fcf1;
+    color: #0b0c10;
+}
+
+
+/*footer*/
+.footer{
+    background-color: #1f2833;
+    color: #c5c6c7;
+}
+
+.footer p{
+    font-size: 0.9rem;
+}
+
+.footer input{
+    background-color: #0b0c10 !important;
+}
+
+/*detail page*/
+.detail{
+    background-color: #0b0c10;
+}
+.content{
+    background-color: #1f2833;
+    color: #c5c6c7;
+}
+
+/*contact page*/
+#fancy-form{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(img/contact.jpg);
+    background-size: cover;
+    background-position: center;
+}
+   
+#fancy-form .container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+   
+   /* main div */
+.form-sections{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+   
+   /* Form-left styling */
+   .Form-left h1{
+     color: #fff;
+     padding: 0;
+     margin: 0;
+   }
+   
+   .Form-left h4{
+     padding: 0;
+     margin: 0;
+     color: rgb(243, 235, 235);
+   }
+   .line{
+     border-bottom: 2px solid #66fcf1;
+     width: 8%;
+     margin-left: 0;
+   }
+   .Form-left span{
+     color: rgb(187, 182, 182);
+     font-weight: bold;
+   }
+   
+   .Form-left hr{
+     width: 25rem;
+     margin-left: 0;
+     border: 1px solid rgb(53, 52, 52);
+   }
+   
+   /* socail media icons */
+   .Form-left a .fa {
+     padding: 8px;
+     font-size: 18px;
+     width: 50px;
+     text-align: center;
+     text-decoration: none;
+     /* margin: 5px 2px; */
+     color: rgb(187, 182, 182);
+   }
+   .fa:hover{
+     color: #fff;
+   }
+   
+   
+   
+   /* Form Right Styling */
+   .Form-right h1{
+     color: #fff;
+     padding: 0;
+     margin: 0;
+   }
+   
+   .Form-right form{
+     padding-top: 2rem;
+   }
+   
+   .Form-right form h5{
+     padding: 0;
+     margin: 0;
+     color: rgb(228, 218, 218);
+     font-size: 1rem;
+   }
+   .Form-right form input{
+     padding:0.6rem;
+     width: 27rem;
+     border: none;
+     background-color:rgba(136, 133, 133, 0.3);
+     color:white;
+     border: none;
+     outline:none;
+   }
+   
+   .Form-right form textarea{
+     padding:0.6rem;
+     width: 27rem;
+     border: none;
+     background-color:rgba(136, 133, 133, 0.3);
+     color:white;
+     border: none;
+     outline:none;
+    }
+   
+   .Form-right form button{
+       width: 9rem;
+       background: #0b0c10;
+       padding: 5px;
+       outline: none;
+       border-color: transparent;
+       color: #fff;
+       font-size: 15px;
+       font-weight: bold;
+       letter-spacing: 2px;
+       text-align: center;
+       margin-top: 0.9rem;
+       cursor: pointer;
+    }
+    .Form-right form button:hover{
+        background: #66fcf1;
+        color: #0b0c10;
+    }
+   
+   
+    /* media queries */
+ @media (max-width: 968px){
+   
+ #fancy-form .form-sections{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+   
+/* background image  */
+#fancy-form{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),url(img/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+}
+   
+.form-sections .Form-right{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+   
+/* socail media icons */
+.Form-left a .fa{
+    padding: 8px;
+    font-size: 18px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(187, 182, 182);
+}
+}
+
+.new{
+    background-image: url(img/newPost.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}/*
+.new .container{
+    background-color: rgba(31, 40, 51, 0.7);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}*/
+.new .container .formulaire{
+    display: block;
+    text-align: center;
+}
+.new .container form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.new .container form .form-group label{
+    color: #c5c6c7;
+}
+
+/*log in form*/
+.login-form{
+    background-image: url(img/login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100vh
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    z-index: 9;
+    width: 100%;
+  }
+
+.container{
+    height: 100%;
+    align-content: center;
+    width: 100%;
+    }
+    
+    .card{
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: auto;
+    background-color: rgba(11, 12, 16, 0.7) !important;
+    }
+    
+    .social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: #66fcf1;
+    }
+    
+    .social_icon span:hover{
+    color: white;
+    cursor: pointer;
+    }
+    
+    .card-header h3{
+    color: #66fcf1;
+    }
+    
+    .social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+    }
+    
+    .input-group-prepend span{
+    width: 50px;
+    background-color: #66fcf1;
+    color: black;
+    border:0 !important;
+    }
+    
+    input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+    }
+    
+    .remember{
+    color: white;
+    }
+    
+    .remember input
+    {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    }
+    
+    .form-group .login_btn{
+    color: black !important;
+    background-color: #66fcf1 !important;
+    width: 100px;
+    }
+    
+    .form-group .login_btn:hover{
+    color: black !important;
+    background-color: white !important;
+    }
+    
+    .links{
+    color: white;
+    }
+    
+    .links a{
+    margin-left: 4px;
+    }
+
+    button.cancel{
+        position: absolute;
+        font-size: 150px;
+        cursor: pointer;
+        color: #66fcf1 !important;
+        top: -100px;
+        right: 300px;
+      }
+      button.cancel:hover{
+        color: #fff !important;
+      }
